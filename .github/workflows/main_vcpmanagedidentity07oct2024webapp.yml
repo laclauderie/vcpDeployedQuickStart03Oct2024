@@ -66,6 +66,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'vcpManagedIdentity07Oct2024WebApp'
-          slot-name: 'Production'
           package: .
           
