@@ -1,4 +1,5 @@
 // /Users/jclonana2005hotmail.com/vcpCloudinary/laclauderie-expressIonic24Aout2024Backend/src/config/config.js
+
 require('dotenv').config(); // Load environment variables from .env file
 const { DefaultAzureCredential } = require("@azure/identity");
 const { Connection, Request } = require("tedious");
